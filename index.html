@@ -4,95 +4,128 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <a href="www.webstudio.com">
-        <h4><span class="blue_text">Web</span>Studio</h4>
-      </a>
-      <nav class="links">
-        <ul>
-          <li><a href="www.studia.com">Студия</a></li>
-          <li><a href="www.portfolio.com">Портфолио</a></li>
-          <li><a href="www.contacts.com">Контакты</a></li>
+    <header class="page-header">
+      <div class="top-header">
+        <a href="index.html" class="logo">
+          <h4><span class="blue-text">Web</span>Studio</h4>
+        </a>
+        <nav class="main-info">
+          <ul class="links">
+            <li class="link"><a href="index.html" class="nav-link">Студия</a></li>
+            <li class="link"><a href="portfolio.html" class="nav-link">Портфолио</a></li>
+            <li class="link"><a href="www.contacts.com" class="nav-link">Контакты</a></li>
+          </ul>
+        </nav>
+        <ul class="contact-us">
+          <li class="contacts">
+            <a href="mailto:info@devstudio.com" class="nav-link">info@devstudio.com</a>
+          </li>
+          <li class="contacts">
+            <a href="tel:+380961111111" class="nav-link">+38 096 111 11 11</a>
+          </li>
         </ul>
-      </nav>
-      <ul class="contact_us">
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-      </ul>
-      <h1>Эффективные решения для вашего бизнеса</h1>
-      <button type="button">Заказать услугу</button>
+      </div>
+      <div class="top-bar">
+        <h1 class="title">Эффективные решения для вашего бизнеса</h1>
+        <button type="button" class="order">Заказать услугу</button>
+      </div>
     </header>
     <main>
       <section class="features">
-        <ul>
-          <li>
-            <h3>Внимание к деталям</h3>
-            <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+        <ul class="features-list">
+          <li class="features-element">
+            <h3 class="feature-title">Внимание к деталям</h3>
+            <p class="feature-description">
+              Идейные соображения, а также начало повседневной работы по формированию позиции.
+            </p>
           </li>
-          <li>
-            <h3>Пунктуальность</h3>
-            <p>
+          <li class="features-element">
+            <h3 class="feature-title">Пунктуальность</h3>
+            <p class="feature-description">
               Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
             </p>
           </li>
-          <li>
-            <h3>Планирование</h3>
-            <p>
+          <li class="features-element">
+            <h3 class="feature-title">Планирование</h3>
+            <p class="feature-description">
               Равным образом консультация с широким активом в значительной степени обуславливает.
             </p>
           </li>
-          <li>
-            <h3>Современные технологии</h3>
-            <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+          <li class="features-element">
+            <h3 class="feature-title">Современные технологии</h3>
+            <p class="feature-description">
+              Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+            </p>
           </li>
         </ul>
       </section>
       <section class="service">
-        <h2>Чем мы занимаемся</h2>
-        <ul>
-          <li><img height="294" width="370" src="images/box1.jpg" alt="code" /></li>
-          <li><img height="294" width="370" src="images/box2.jpg" alt="ux_ui" /></li>
-          <li><img height="294" width="370" src="images/box3.jpg" alt="design" /></li>
+        <h2 class="service-title">Чем мы занимаемся</h2>
+        <ul class="service-list">
+          <li class="service-element">
+            <img height="294" width="370" src="images/box1.jpg" alt="code" />
+          </li>
+          <li class="service-element">
+            <img height="294" width="370" src="images/box2.jpg" alt="ux-ui" />
+          </li>
+          <li class="service-element">
+            <img height="294" width="370" src="images/box3.jpg" alt="design" />
+          </li>
         </ul>
       </section>
       <section class="team">
-        <h2>Наша команда</h2>
-        <ul>
-          <li>
-            <img height="270" width="260" src="images/img1.jpg" alt="Product_Designer" />
-            <h5>Игорь Демьяненко</h5>
-            <p>Product Designer</p>
+        <h2 class="team-title">Наша команда</h2>
+        <ul class="team-list">
+          <li class="team-item">
+            <img height="260" width="270" src="images/img1.jpg" alt="Product-Designer" />
+            <h5 class="teammate-name">Игорь Демьяненко</h5>
+            <p class="teammate-position">Product Designer</p>
           </li>
-          <li>
-            <img height="270" width="260" src="images/img2.jpg" alt="Frontend_Developer" />
-            <h5>Ольга Репина</h5>
-            <p>Frontend Developer</p>
+          <li class="team-item">
+            <img height="260" width="270" src="images/img2.jpg" alt="Frontend-Developer" />
+            <h5 class="teammate-name">Ольга Репина</h5>
+            <p class="teammate-position">Frontend Developer</p>
           </li>
-          <li>
-            <img height="270" width="260" src="images/img3.jpg" alt="Marketing" />
-            <h5>Николай Тарасов</h5>
-            <p>Marketing</p>
+          <li class="team-item">
+            <img height="260" width="270" src="images/img3.jpg" alt="Marketing" />
+            <h5 class="teammate-name">Николай Тарасов</h5>
+            <p class="teammate-position">Marketing</p>
           </li>
-          <li>
-            <img height="270" width="260" src="images/img4.jpg" alt="UI_Designer" />
-            <h5>Михаил Ермаков</h5>
-            <p>UI Designer</p>
+          <li class="team-item">
+            <img height="260" width="270" src="images/img4.jpg" alt="UI-Designer" />
+            <h5 class="teammate-name">Михаил Ермаков</h5>
+            <p class="teammate-position">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-      <a href="www.webstudio.com"
-        ><h4><span class="blue_text">Web</span>Studio</h4></a
-      >
-      <address>
-        <p class="physical_address">г. Киев, пр-т Леси Украинки, 26</p>
-        <p class="contacts">info@example.com</p>
-        <p class="contacts">+38 099 111 11 11</p>
-      </address>
+    <footer class="page-footer">
+      <div class="footer-content">
+        <a href="index.html" class="footer-logo">
+          <h4><span class="blue-text">Web</span>Studio</h4>
+        </a>
+        <address>
+          <p class="physical-address">г. Киев, пр-т Леси Украинки, 26</p>
+          <p class="footer-contacts">info@example.com</p>
+          <p class="footer-contacts">+38 099 111 11 11</p>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
