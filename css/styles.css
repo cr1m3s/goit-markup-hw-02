@@ -7,7 +7,6 @@
   --light-bg: #f5f4fa;
   --font-color: #212121;
   --portfolio-line: #ececec;
-  --button-color: #f5f4fa;
   --card-border: #eeeeee;
 }
 
@@ -17,10 +16,8 @@ body {
   font-weight: 500;
   color: var(--font-color);
 }
+
 /*header*/
-.page-header {
-  height: 680px;
-}
 
 .top-header {
   height: 80px;
@@ -40,7 +37,7 @@ a:active {
   color: inherit;
 }
 
-.logo h4 {
+.logo {
   height: 31px;
   color: var(--black);
   text-decoration: none;
@@ -83,7 +80,7 @@ a:active {
   margin-top: 32px;
 }
 
-.contacts {
+.contact {
   display: inline;
   color: var(--grey);
   font-weight: 500;
@@ -111,7 +108,7 @@ a:active {
   margin-bottom: 115px;
 }
 
-.order {
+.primary-button {
   height: 50px;
   width: 200px;
   background-color: var(--blue);
@@ -253,7 +250,7 @@ a:active {
   display: flex;
 }
 
-.footer-logo h4 {
+.footer-logo {
   float: left;
   color: var(--white);
   text-decoration: none;
@@ -298,11 +295,11 @@ address {
 }
 
 .portfolio-main {
-  height: 1548px;
+  /*height: 2548px;*/
 }
 
 .portfolio-content {
-  height: 1360px;
+  /*height: 1360px;*/
   width: 1170px;
   padding-left: 215px;
   padding-top: 84px;
@@ -321,15 +318,22 @@ address {
   margin-right: 2px;
 }
 
-.portfolio-button {
+.secondary-button {
   height: 38px;
   display: inline;
   border-radius: 4px;
+  border: none;
   padding: 10px 20px;
-  background-color: var(--button-color);
+  background-color: var(--light-bg);
   font-family: inherit;
   font-weight: 500px;
   font-size: 16px;
+}
+
+.secondary-button:hover {
+  color: var(--white);
+  background-color: var(--blue);
+  cursor: pointer;
 }
 
 .portfolio-button:hover {
@@ -340,16 +344,13 @@ address {
 
 .projects {
   padding-top: 30px;
-}
-
-.projects-item {
-  height: 404px;
-  width: 370px;
-  padding: 15px 15px 15px 15px;
-  border: 1px var(--grey);
+  list-style-type: none;
 }
 
 .projects-card {
+  height: 404px;
+  width: 370px;
+  margin: 15px 15px 15px 15px;
   box-sizing: border-box;
   border: 1px solid var(--card-border);
 }
