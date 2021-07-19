@@ -121,6 +121,10 @@ a:active {
   margin-top: 115px;
 }
 
+.primary-button:hover {
+  cursor: pointer;
+}
+
 /* Main part*/
 
 .features {
