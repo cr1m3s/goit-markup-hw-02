@@ -8,11 +8,12 @@
   --font-color: #212121;
   --portfolio-line: #ececec;
   --card-border: #eeeeee;
+  --footer-contacts: rgba(255, 255, 255, 0.6);
 }
 
 body {
   margin: 0px 0px 0px 0px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', Arial, sans-serif;
   font-weight: 500;
   color: var(--font-color);
 }
@@ -60,7 +61,7 @@ a:active {
   margin-top: 0px;
 }
 
-.link {
+.link-item {
   display: inline;
   font-weight: 500;
   font-size: 14px;
@@ -104,7 +105,6 @@ a:active {
   font-weight: 900;
   line-height: 1.4;
   color: var(--white);
-  position: absolute;
   margin-bottom: 115px;
 }
 
@@ -174,7 +174,6 @@ a:active {
 
 .service-title {
   font-size: 36px;
-  position: absolute;
   font-weight: 700;
 }
 
@@ -203,7 +202,6 @@ a:active {
 .team-title {
   margin-top: 102px;
   font-size: 36px;
-  position: absolute;
 }
 
 .team-list {
@@ -250,8 +248,8 @@ a:active {
   padding-top: 30px;
   margin-left: 215px;
   height: 131px;
-  width: 231px;
   display: flex;
+  color: var(--white);
 }
 
 .footer-logo {
@@ -261,34 +259,34 @@ a:active {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
-  font-weight: 700;
-  position: absolute;
 }
 
 .blue-text {
   color: var(--blue);
 }
 
-address {
+.footer-contacts {
   all: initial;
   font-family: inherit;
 }
 
-.physical-address {
-  padding-top: 71px;
+.foter-contact-list {
+  list-style-type: none;
+  padding-top: 40px;
+}
+
+.footer-address-item {
   color: var(--white);
   font-size: 14px;
   font-weight: inherit;
-  margin-top: 20px;
-  margin-bottom: 5px;
 }
 
-.footer-contacts {
-  color: var(--white);
-  opacity: 0.6;
+.footer-contact-item {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: var(--footer-contacts);
   font-size: 14px;
-  margin-top: 8px;
-  margin-bottom: 8px;
 }
 
 /* Portfolio */
@@ -299,11 +297,9 @@ address {
 }
 
 .portfolio-main {
-  /*height: 2548px;*/
 }
 
 .portfolio-content {
-  /*height: 1360px;*/
   width: 1170px;
   padding-left: 215px;
   padding-top: 84px;
