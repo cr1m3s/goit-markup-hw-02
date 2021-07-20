@@ -20,12 +20,6 @@ body {
 
 /*header*/
 
-.top-header {
-  height: 80px;
-  display: flex;
-  justify-content: center;
-}
-
 .main-info {
   display: inline-block;
 }
@@ -39,7 +33,6 @@ a:active {
 }
 
 .logo {
-  height: 31px;
   color: var(--black);
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
@@ -52,13 +45,6 @@ a:active {
 
 .blue-text {
   color: var(--blue);
-}
-
-.links {
-  padding-top: 32px;
-  padding-right: 93px;
-  padding-left: 93px;
-  margin-top: 0px;
 }
 
 .link-item {
@@ -77,7 +63,6 @@ a:active {
 }
 
 .contact-us {
-  height: 80px;
   margin-top: 32px;
 }
 
@@ -85,20 +70,14 @@ a:active {
   display: inline;
   color: var(--grey);
   font-weight: 500;
-  padding: 65px 25px 25px 25px;
 }
 
 .top-bar {
   background-color: var(--dark-bg);
-  height: 600px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .title {
   width: 650px;
-  height: 120px;
   text-align: center;
   text-transform: uppercase;
   font-size: 44px;
@@ -109,7 +88,6 @@ a:active {
 }
 
 .primary-button {
-  height: 50px;
   width: 200px;
   background-color: var(--blue);
   font-family: inherit;
@@ -127,18 +105,9 @@ a:active {
 
 /* Main part*/
 
-.features {
-  height: 290px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .features-list {
   list-style-type: none;
-  height: 101px;
   width: 1170px;
-  display: flex;
 }
 
 .features-element {
@@ -146,7 +115,6 @@ a:active {
   margin-right: 25px;
   text-align: left;
   width: 270px;
-  height: 110px;
 }
 
 .feature-title {
@@ -157,7 +125,6 @@ a:active {
 
 .feature-description {
   width: 250px;
-  height: 75px;
   margin-top: 10px;
   color: var(--grey);
   font-size: 14px;
@@ -166,11 +133,6 @@ a:active {
 }
 
 /* Service */
-.service {
-  height: 452px;
-  display: flex;
-  justify-content: center;
-}
 
 .service-title {
   font-size: 36px;
@@ -179,10 +141,8 @@ a:active {
 
 .service-list {
   padding-top: 90px;
-  height: 294px;
   width: 1170px;
   list-style-type: none;
-  display: flex;
 }
 
 .service-element {
@@ -193,9 +153,6 @@ a:active {
 /* Team */
 
 .team {
-  height: 648px;
-  justify-content: center;
-  display: flex;
   background-color: var(--light-bg);
 }
 
@@ -209,13 +166,10 @@ a:active {
   margin-top: 194px;
   margin-left: 0px;
   padding-left: 0px;
-  display: flex;
-  height: 368px;
   width: 1170px;
 }
 
 .team-item {
-  height: 368px;
   width: 270px;
   margin-right: 10px;
   margin-left: 10px;
@@ -241,14 +195,11 @@ a:active {
 
 .page-footer {
   background-color: var(--dark-bg);
-  height: 252px;
 }
 
 .footer-content {
   padding-top: 30px;
   margin-left: 215px;
-  height: 131px;
-  display: flex;
   color: var(--white);
 }
 
@@ -282,7 +233,6 @@ a:active {
 }
 
 .footer-contact-item {
-  display: flex;
   margin-top: 10px;
   margin-bottom: 10px;
   color: var(--footer-contacts);
@@ -316,7 +266,6 @@ a:active {
 }
 
 .secondary-button {
-  height: 38px;
   display: inline;
   border-radius: 4px;
   border: none;
@@ -345,7 +294,6 @@ a:active {
 }
 
 .projects-card {
-  height: 404px;
   width: 370px;
   margin: 15px 15px 15px 15px;
   box-sizing: border-box;
